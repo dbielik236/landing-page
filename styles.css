@@ -10,9 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    
-    
-  
 }
 
 .header {
@@ -51,7 +48,7 @@ ul {
 
 }
 
-img {
+.main-image {
     height: 300px;
     width: auto;
     
@@ -76,4 +73,29 @@ button {
 
 .container {
     margin-right: 50px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.image-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+
+}
+
+.pic {
+    border: solid cornflowerblue;
+    border-radius: 12px;
 }

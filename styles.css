@@ -65,10 +65,11 @@ ul {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border: none;
-    border-radius: 12px;
+    border-color: white;
+    border-radius: 8px;
     padding: 5px 30px 5px 30px;
     font-size: 14px;
+    border-style: solid;
 }
 
 .container {
@@ -77,25 +78,31 @@ button {
 
 .middle {
     text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 .image-area {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     gap: 20px;
-    
 }
 
 .images {
     display: flex;
     flex-direction: column;
     width: 200px;
-    
-
+    gap: 14px;
 }
 
 .pic {
     border: solid cornflowerblue;
     border-radius: 12px;
+}
+
+.information {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #1F2937;
+    margin: 20px;
 }
